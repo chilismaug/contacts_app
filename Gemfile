@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 #generates pretty nice pages
 gem 'nifty-generators', '>= 0.4.2'
+#authentication goodies
+gem 'devise', '>= 4.4.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -45,3 +47,5 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'mocha', group: :test
