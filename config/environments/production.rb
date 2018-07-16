@@ -79,9 +79,9 @@ Rails.application.configure do
 end
   #set up email send on heroku
 ActionMailer::Base.smtp_settings = {
-  address: "smtp.gmail.com",
+  address: "smtp.sendgrid.com",
   port: 587,
-  domain: "gmail.com",
+  domain: "sendgrid.com",
   authentication: :plain,
   user_name: ENV['GMAIL_USERNAME'],
   password: ENV['GMAIL_PASSWORD'],

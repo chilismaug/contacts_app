@@ -28,6 +28,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '4.1.1'
 #let us now learn rpec to test well
 gem 'rspec-rails'
+#and must send password reset emails so we try sendgrid
+gem 'sendgrid-ruby'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
