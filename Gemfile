@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #gem 'nifty-generators', '>= 0.4.2'
 #authentication goodies
 gem 'devise', '4.1.1'
+#let us now learn rpec to test well
+gem 'rspec-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
