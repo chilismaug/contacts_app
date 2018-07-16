@@ -26,8 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #gem 'nifty-generators', '>= 0.4.2'
 #authentication goodies
 gem 'devise', '4.1.1'
-#let us now learn rpec to test well
-gem 'rspec-rails'
+
 #and must send password reset emails so we try sendgrid
 gem 'sendgrid-ruby'
 
@@ -44,12 +43,15 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
-
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+#let us now learn rpec to test well
+  gem 'rspec-rails'
+
+
 end
 
+  # Access an IRB console on exception pages or by using <%= console %> in views
+gem 'web-console', '~> 2.0', group: :development
 
 gem 'mocha', group: :test
