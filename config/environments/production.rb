@@ -79,10 +79,11 @@ Rails.application.configure do
 end
   #set up email send on heroku
 ActionMailer::Base.smtp_settings = {
-  address: "smtp.sendgrid.com",
-  port: 587,
-  domain: "sendgrid.com",
-  authentication: :plain,
-  user_name: ENV['GMAIL_USERNAME'],
-  password: ENV['GMAIL_PASSWORD'],
-  enable_starttls_auto: true  }
+  :user_name => ENV['SENDGRID_USERNAME'],
+  :password => ENV['SENDGRID_PASSWORD'],
+  :domain => 'somerandomdomain.com',
+  :address => 'smtp.sendgrid.net',
+  :port => 587,
+  :authentication => :plain,
+  :enable_starttls_auto => true
+}
