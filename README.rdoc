@@ -13,3 +13,5 @@
 * Database initialization
 
 * How to run the test suite
+
+A <a href=https://limitless-earth-12166.herokuapp.com>demo</a> of this app is on Heroku 
