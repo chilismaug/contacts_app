@@ -1,3 +1,6 @@
+
+A demo of [the app](https://limitless-earth-12166.herokuapp.com/) is on Heroku 
+
 ==todos for README
 
 * Abstract
@@ -13,5 +16,3 @@
 * Database initialization
 
 * How to run the test suite
-
-A [demo](https://limitless-earth-12166.herokuapp.com/) of this app is on Heroku 
