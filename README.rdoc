@@ -14,4 +14,4 @@
 
 * How to run the test suite
 
-A [demo](https://limitless-earth-12166.herokuapp.com) of this app is on Heroku 
+A [demo](https://limitless-earth-12166.herokuapp.com/) of this app is on Heroku 
