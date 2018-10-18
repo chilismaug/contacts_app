@@ -1,5 +1,6 @@
 
-A demo of [the app](https://limitless-earth-12166.herokuapp.com/) is on Heroku 
+A demo[https://limitless-earth-12166.herokuapp.com/] of the app is on Heroku 
+
 
 ==todos for README
 
